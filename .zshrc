@@ -103,6 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias xclip='xclip -selection clipboard'
+alias docker-desktop-on='systemctl --user start docker-desktop'
+alias docker-desktop-off='systemctl --user stop docker-desktop'
 
 
 # VIM on terminal
